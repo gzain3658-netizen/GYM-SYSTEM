@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+    transition: background-color 0.3s ease;
+}
+nav ul li a:hover {
+    background-color: #e94560;
+    border-radius: 4px;
+}
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    min-height: 70vh; 
+}
+section {
+    background: #ffffff;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+section h2, section h3 {
+    color: #1a1a2e;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+article {
+    background: #f8f9fa;
+    border-left: 5px solid #e94560;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+img {
+    display: block;
+    margin: 1.5rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+form p {
+    margin-bottom: 1.2rem;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #e94560;
+}
+button {
+    background-color: #e94560;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #1a1a2e;
+}
+footer {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}

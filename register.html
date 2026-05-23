@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - The Core Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>The Core Gym</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="plans.html">Membership Plans</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="register.html"><b>Register</b></a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Gym Membership Registration</h2>
+            <p>Fill out the form below to initiate your membership setup.</p>
+            <form action="#" method="POST">
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="plan">Select a Plan:</label><br>
+                    <select id="plan" name="plan">
+                        <option value="basic">Basic Plan - Rs.2000</option>
+                        <option value="premium">Premium Plan - Rs.3000</option>
+                        <option value="vip">VIP Elite Plan - Rs.10000</option>
+                    </select>
+                </p>
+                <p>
+                    <button type="submit">Submit Registration</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>2026 The Core Gym. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
